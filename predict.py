@@ -6,7 +6,6 @@ import os
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
 
-# Load the model
 model = load_model("keras_Model.h5", compile=False)
 
 # Load the labels
